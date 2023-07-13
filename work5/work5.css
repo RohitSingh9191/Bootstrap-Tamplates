@@ -1,0 +1,424 @@
+.gradient-custom-1 {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #5ac8e4, #9cd1df);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #5ac8e4, #dae9ec);
+}
+
+.main-container {
+    width: auto;
+    height: auto;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    width: 110%;
+    height: 100%;
+}
+
+.bar{
+    font-size: 25px;
+    cursor: pointer;
+}
+.orange{
+    color: #d9853f;
+}
+
+.col1 {
+    background-color: #ebebeb;
+}
+
+.col2 {
+    border: black;
+    background-color: #ffffff;
+}
+
+.col3 {
+    background-color: #f4feff;
+}
+
+.heading-size {
+    font-size: 22px;
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+.red-col {
+    color: red;
+}
+
+.card-background {
+    background: -webkit-linear-gradient(to right, #ffffff, #ebebeb);
+    background: linear-gradient(to right, #ffffff, #ebebeb);
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.card-background2 {
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.edu-size {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
+
+.text-resp {
+    font-size: medium;
+}
+
+.text-dashboard-resp {
+    font-size: large;
+    font-weight: 400;
+}
+
+.text-classes-resp {
+    font-size: large;
+    font-weight: 400;
+    color: #ff7300;
+    text-shadow: #492d2d;
+}
+
+.maring-logout {
+    /* margin-top: 300px; */
+    margin-top: 100%;
+}
+
+.logo-size {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
+
+.text1-resp-card {
+    font-size: 16px;
+}
+
+.text2-resp-card {
+    font-size: 12px;
+}
+
+.card-button {
+    border: none;
+    border-radius: 25px;
+    font-size: small;
+    width: 100%;
+    height: 135%;
+}
+
+.card-background3 {
+    background: linear-gradient(to bottom, #82f1d0, #ddd8d8);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card-background4 {
+    background: linear-gradient(to bottom, #f7ec8a, #ddd8d8);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card-background5 {
+    background: linear-gradient(to bottom, #828df0, #ddd8d8);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.boi-bg-cl1 {
+    background-color: #2be2ab;
+    width: auto;
+    height: 50px;
+    border-radius: 20%;
+    padding: 25px 12px;
+}
+
+.boi-bg-cl2 {
+    background-color: #b9ad3b;
+    width: auto;
+    height: 50px;
+    border-radius: 20%;
+    padding: 25px 12px;
+}
+
+.boi-bg-cl3 {
+    background-color: #4b5cf8;
+    width: auto;
+    height: 50px;
+    border-radius: 20%;
+    padding: 25px 12px;
+}
+
+.table-bg-cl1 {
+    background-color: #c0f3e4;
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+    padding: 25px 12px;
+    color: #00c267;
+}
+
+.table-bg-cl2 {
+    background-color: #f2f3c0;
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+    padding: 25px 12px;
+    color: #d3ca48;
+}
+
+.table-bg-cl3 {
+    background-color: #c0c1f3;
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+    padding: 25px 12px;
+    color: #8564d3;
+}
+
+.table-tesx-size {
+    font-size: 69%;
+    font-weight: 450;
+}
+
+.table-tesx-size-light {
+    font-size: small;
+    font-weight: 450;
+    color: #868484;
+}
+
+.table-tesx-size-light-dot {
+    font-size: large;
+    font-weight: 1000;
+    color: #a7a4a4;
+    padding: 2px 6px;
+    position: relative;
+    bottom: 2px;
+}
+
+.table-button {
+    border: none;
+    border-radius: 25px;
+    font-size: small;
+    width: 150%;
+    height: 39px;
+    background-color: #ff7300;
+    color: white;
+    position: relative;
+    float: right;
+
+}
+
+.table-button2 {
+    border: none;
+    border-radius: 25px;
+    font-size: small;
+    width: 150%;
+    height: 39px;
+    background-color: #f3d3b8;
+    color: rgb(255, 96, 34);
+    position: relative;
+    float: right;
+
+}
+
+.dot-position {
+    margin-top: 30%;
+}
+
+.button-position {
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+
+.row-border {
+    border-bottom: #000000;
+    color: #424141;
+}
+
+.img-size {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* .cal-bg-size{
+   
+} */
+
+@media only screen and (max-width: 425px) {
+    .col1 {
+        margin-bottom: 20px;
+
+    }
+
+    .col2 {
+        margin-bottom: 20px;
+
+    }
+
+    .col3 {
+        margin-bottom: 20px;
+
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .display {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1040px) {
+    .hidden {
+        display: none;
+    }
+}
+
+
+\ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #eb913e;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 95%;
+    z-index: 400;
+
+}
+
+ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 30px;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #e88222;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.float-right {
+    position: relative;
+    float: right;
+}
+
+.view-all-css {
+    color: #f18a36;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.text-color {
+    color: #e27114;
+}
+
+.time-tesx-size-light {
+    font-size: small;
+    font-weight: 450;
+    color: #868484;
+}
+
+.time-tesx-size {
+    font-size: 90%;
+    font-weight: 450;
+}
+
+.time-logo-position {
+    position: relative;
+    top: 10%;
+}
+
+.time-logo-position2 {
+    position: relative;
+    top: 25%;
+}
+
+.time-logo-position3 {
+    position: relative;
+    top: 40%;
+}
+
+.time-date-position2 {
+    position: relative;
+    top: 13%;
+}
+
+.time-date-position3 {
+    position: relative;
+    top: 22%;
+}
+
+/* -------------------------- */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #636363;
+    transition: 0.3s;
+
+}
+
+.sidenav {
+    background-color: #ebebeb;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}

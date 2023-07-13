@@ -1,0 +1,82 @@
+
+.background-color-container{
+  background-color: rgb(50, 189, 147);
+  height: 850px;
+  width: 1200px;
+}
+
+.shadow {
+  box-shadow: 0 .5rem 1rem rgba(25, 26, 28, .15) !important;
+  position: relative;
+  left: 50px;
+  top: 50px;
+  width: 1000px;
+  height: 100;
+
+}
+
+.box {
+  border-color: rgb(50, 189, 147);
+
+}
+
+.button-background-color {
+  background-color: rgb(50, 189, 147);
+  border: none;
+
+}
+img {
+  width: 100px;
+  height: 100px;
+
+}
+select {
+  height: 100%;
+  width: 120%;
+  border: none;
+  outline: none;
+  padding: 0 0px;
+  color: #333;
+  transition: all 0.2s ease;
+  border-bottom: 1.5px solid #aaaaaa;
+  background: none;
+}
+.input_box {
+  position: relative;
+  margin-top: 30px;
+  width: 80%;
+  height: 40px;
+}
+
+.input_box input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0 0px;
+  color: #333;
+  transition: all 0.2s ease;
+  border-bottom: 1.5px solid #aaaaaa;
+}
+
+.input_box input:focus {
+  border-color: #7d2ae8;
+}
+
+
+.carousel-indicators-position {
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 570px;
+}
+
+.dot-navigate:hover {
+  translate: scale(1, 5);
+}
+
+.carousel-button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}

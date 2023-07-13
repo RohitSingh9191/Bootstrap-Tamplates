@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work-5</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="work5.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+
+<body">
+    <!-- ----Side Bar---- -->
+    <div id="mySidenav" class="sidenav">
+
+        <div id="mySidenav" class="col-lg-12  col-md-12">
+            <div class="container mt-3">
+                <!-- ------------ -->
+                <div class="row">
+                    <div class="d-flex">
+                        <span class="heading-size">Lecture</span><span class="heading-size red-col">.</span>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    </div>
+                </div>
+                <!-- ------------ -->
+                <div class="row col1">
+                    <div class="col-lg-12">
+                        <div class="card card-background">
+                            <div class="card-body d-flex">
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <img class="edu-size" src="edu.png" alt="">
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                    <p class="mb-0 text-resp"><b>Institute of Sam</b></p>
+                                    <small class="text-body-secondary">First year</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------ -->
+                        <div class="card card-background2   ">
+                            <div class="card-body d-flex">
+                                <div class="col-lg-3 col-md-3 col-sm-3 text-color">
+                                    <i class="edu-size fa-solid fa-braille fa-xl" ></i>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                    <h5 class="mb-0 text-dashboard-resp">Dashboad</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------ -->
+                        <div class="card card-background ">
+                            <div class="card-body d-flex">
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <i class="fa-solid fa-book fa-2xl" style="color: #ff7300;"></i>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                    <h5 class="mb-0 text-classes-resp">Classes</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------ -->
+                        <div class="card card-background2 ">
+                            <div class="card-body d-flex">
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <i class="fa-regular fa-comment fa-2xl" ></i>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                    <h5 class="mb-0 text-dashboard-resp">Discussions</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------ -->
+                        <div class="row mt-5">
+                            <div class="d-flex">
+                                <span class="heading-size">Insight</span><span class="heading-size red-col">.</span>
+                            </div>
+                        </div>
+                        <!-- ------------ -->
+                        <div class="card card-background2 ">
+                            <div class="card-body d-flex">
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <i class="fa-solid fa-clipboard fa-xl" ></i>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                    <h5 class="mb-0 text-dashboard-resp">Resources</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------ -->
+                        <div class="card card-background2 ">
+                            <div class="card-body d-flex">
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <i class="fa-regular fa-calendar fa-xl"></i>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                    <h5 class="mb-0 text-dashboard-resp">My schedule</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------ -->
+                        <div class="card card-background2 maring-logout">
+                            <div class="card-body d-flex">
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <i class="fa-solid fa-arrow-right-from-bracket fa-xl"></i>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                    <h5 class="text-dashboard-resp">logout</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------ -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ----Side Ba end ---- -->
+
+    <div class=" main-container gradient-custom-1 ">
+        <div class="background  m-5">
+            <div class="row">
+                <!-- First Column -->
+                <div id="mySidenav" class="col-lg-3  col-md-3  col1 display">
+                    <div class="container mt-3">
+                        <!-- ------------ -->
+                        <div class="row">
+                            <div class="d-flex">
+                                <span class="heading-size">Lecture</span><span class="heading-size red-col">.</span>
+                            </div>
+                        </div>
+                        <!-- ------------ -->
+                        <div class="row col1">
+                            <div class="col-lg-12">
+                                <div class="card card-background">
+                                    <div class="card-body d-flex">
+                                        <div class="col-lg-3 col-md-3 col-sm-3">
+                                            <img class="edu-size" src="edu.png" alt="">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                            <p class="mb-0 text-resp"><b>Institute of Sam</b></p>
+                                            <small class="text-body-secondary">First year</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ------------ -->
+                                <div class="card card-background2   ">
+                                    <div class="card-body d-flex">
+                                        <div class="col-lg-3 col-md-3 col-sm-3">
+                                            <i class="edu-size fa-solid fa-braille fa-xl" ></i>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                            <h5 class="mb-0 text-dashboard-resp">Dashboad</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ------------ -->
+                                <div class="card card-background ">
+                                    <div class="card-body d-flex">
+                                        <div class="col-lg-3 col-md-3 col-sm-3">
+                                            <i class="fa-solid fa-book fa-2xl orange" ></i>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                            <h5 class="mb-0 text-classes-resp">Classes</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ------------ -->
+                                <div class="card card-background2 ">
+                                    <div class="card-body d-flex">
+                                        <div class="col-lg-3 col-md-3 col-sm-3">
+                                            <i class="fa-regular fa-comment fa-2xl"></i>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                            <h5 class="mb-0 text-dashboard-resp">Discussions</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ------------ -->
+                                <div class="row mt-5">
+                                    <div class="d-flex">
+                                        <span class="heading-size">Insight</span><span
+                                            class="heading-size red-col">.</span>
+                                    </div>
+                                </div>
+                                <!-- ------------ -->
+                                <div class="card card-background2 ">
+                                    <div class="card-body d-flex">
+                                        <div class="col-lg-3 col-md-3 col-sm-3">
+                                            <i class="fa-solid fa-clipboard fa-xl" ></i>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                            <h5 class="mb-0 text-dashboard-resp">Resources</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ------------ -->
+                                <div class="card card-background2 ">
+                                    <div class="card-body d-flex">
+                                        <div class="col-lg-3 col-md-3 col-sm-3">
+                                            <i class="fa-regular fa-calendar fa-xl"></i>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                            <h5 class="mb-0 text-dashboard-resp">My schedule</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ------------ -->
+                                <div class="card card-background2 maring-logout">
+                                    <div class="card-body d-flex">
+                                        <div class="col-lg-3 col-md-3 col-sm-3">
+                                            <i class="fa-solid fa-arrow-right-from-bracket fa-xl"></i>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 ms-2 ">
+                                            <h5 class="text-dashboard-resp">logout</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ------------ -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Seconf Column -->
+                <div class="col-xl-5 col-lg-6 col-md-6 col-sm-12 col-12 col2">
+                    <div class="container">
+                        <!-- --------------------- -->
+                        <div class="row mt-3">
+                            <div class="d-flex">
+                                <span class=" hidden bar"
+                                    onclick="openNav()">&#9776;</span>
+                                <span class="heading-size ms-2">My Class</span><span
+                                    class="heading-size red-col">.</span>
+                            </div>
+                        </div>
+                        <!-- --------------------- -->
+                        <div class="row mt-3" id="sortable">
+                            <div class="col-lg-4">
+                                <div class="card card-background3 mb-3">
+                                    <div class="card-body ">
+                                        <div class="row">
+                                            <div class="text-center">
+                                                <i class="fa-solid fa-book fa-xl boi-bg-cl1"></i>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="text-center">
+                                                <h7 class="text1-resp-card ">Boigraphy</h7>
+                                                <p class="text2-resp-card">4 Task Remaining</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="text-center">
+                                                <button class="card-button">View Task</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------------------- -->
+                            <div class="col-lg-4">
+                                <div class="card card-background4    mb-3">
+                                    <div class="card-body ">
+                                        <div class="row">
+                                            <div class="text-center">
+                                                <i class="fa-solid fa-calculator boi-bg-cl2 fa-xl"></i>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="text-center">
+                                                <h7 class="text1-resp-card ">Math</h7>
+                                                <p class="text2-resp-card">3 Task Remaining</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="text-center">
+                                                <button class="card-button">View Task</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------------------- -->
+                            <div class="col-lg-4">
+                                <div class="card card-background5 mb-3">
+                                    <div class="card-body ">
+                                        <div class="row">
+                                            <div class="text-center">
+                                                <i class="fa-solid fa-brain fa-xl boi-bg-cl3"></i>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="text-center">
+                                                <h7 class="text1-resp-card ">Psychology</h7>
+                                                <p class="text2-resp-card">No assignment yet</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="text-center">
+                                                <button class="card-button">View Task</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --------------------- -->
+                        <div class="row">
+                            <div class="d-flex">
+                                <span class="heading-size">Today Tasks</span><span class="heading-size red-col">.</span>
+                            </div>
+                        </div>
+                        <!-- ------------ -->
+
+                        <nav class="mt-4">
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                    aria-selected="true">Forum</button>
+                                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">To-do</button>
+                                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                                    aria-selected="false">Members</button>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                aria-labelledby="nav-home-tab" tabindex="0">
+                                <!-- ------------ -->
+                                <div class="row mt-4">
+                                    <div class="d-flex row-border">
+                                        <div class="col-8 d-flex">
+                                            <i class="fa-regular fa-clipboard fa-2xl table-bg-cl1"></i>
+                                            <div class="ms-2">
+                                                <span class="table-tesx-size ">Quiz if you become a
+                                                    motivator</span><span
+                                                    class="table-tesx-size-light-dot ms-1">.</span><span
+                                                    class="table-tesx-size ms-1">Task</span>
+                                                <br>
+                                                <span class="table-tesx-size">Biography</span><span
+                                                    class="table-tesx-size-light">. Mrs Diona Smith </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div>
+                                                <i class="fa-solid fa-ellipsis fa-lg dot-position text-secondary"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div class="button-position">
+                                                <button class="table-button float-right">+ Add or Create</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div>
+                                        <hr class="row-border">
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="d-flex row-border">
+
+                                        <div class="col-8 d-flex">
+                                            <i class="fa-solid fa-receipt fa-2xl table-bg-cl1"></i>
+                                            <div class="ms-2">
+                                                <span class="table-tesx-size ">Quiz if you become a
+                                                    motivator</span><span
+                                                    class="table-tesx-size-light-dot ms-1">.</span><span
+                                                    class="table-tesx-size ms-1">Task</span>
+                                                <br>
+                                                <span class="table-tesx-size">Biography</span><span
+                                                    class="table-tesx-size-light">. Mrs Diona Smith </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div>
+                                                <i class="fa-solid fa-ellipsis fa-lg dot-position text-secondary"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div class="button-position">
+                                                <button class="table-button2">+ Add or Create</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div>
+                                        <hr class="row-border">
+                                    </div>
+                                </div>
+
+                                <!-- ------------ -->
+                                <div class="row ">
+                                    <div class="d-flex row-border">
+
+                                        <div class="col-8 d-flex">
+                                            <i class="fa-regular fa-clipboard fa-2xl table-bg-cl2"></i>
+                                            <div class="ms-2">
+                                                <span class="table-tesx-size ">Quiz if you become a
+                                                    motivator</span><span
+                                                    class="table-tesx-size-light-dot ms-1">.</span><span
+                                                    class="table-tesx-size ms-1">Task</span>
+                                                <br>
+                                                <span class="table-tesx-size">Biography</span><span
+                                                    class="table-tesx-size-light">. Mrs Diona Smith </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2">
+
+                                            <div class="">
+                                                <i class="fa-solid fa-ellipsis fa-lg dot-position text-secondary"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div class="button-position">
+                                                <button class="table-button">+ Add or Create</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <hr class="row-border">
+                                    </div>
+                                </div>
+                                <!-- ------------ -->
+                                <div class="row ">
+                                    <div class="d-flex row-border">
+
+                                        <div class="col-8 d-flex">
+                                            <i class="fa-solid fa-receipt fa-2xl table-bg-cl2"></i>
+                                            <div class="ms-2">
+                                                <span class="table-tesx-size ">Quiz if you become a
+                                                    motivator</span><span
+                                                    class="table-tesx-size-light-dot ms-1">.</span><span
+                                                    class="table-tesx-size ms-1">Task</span>
+                                                <br>
+                                                <span class="table-tesx-size">Biography</span><span
+                                                    class="table-tesx-size-light">. Mrs Diona Smith </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div class="">
+                                                <i class="fa-solid fa-ellipsis fa-lg dot-position text-secondary"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div class="button-position">
+                                                <button class="table-button2">+ Add or Create</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <hr class="row-border">
+                                    </div>
+                                </div>
+                                <!-- ------------------- -->
+                                <div class="row ">
+                                    <div class="d-flex row-border">
+
+                                        <div class="col-8 d-flex">
+                                            <i class="fa-regular fa-clipboard fa-2xl table-bg-cl1"></i>
+                                            <div class="ms-2">
+                                                <span class="table-tesx-size ">Quiz if you become a
+                                                    motivator</span><span
+                                                    class="table-tesx-size-light-dot ms-1">.</span><span
+                                                    class="table-tesx-size ms-1">Task</span>
+                                                <br>
+                                                <span class="table-tesx-size">Biography</span><span
+                                                    class="table-tesx-size-light">. Mrs Diona Smith </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div class="">
+                                                <i class="fa-solid fa-ellipsis fa-lg dot-position text-secondary"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div class="button-position">
+                                                <button class="table-button">+ Add or Create</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <hr class="row-border">
+                                    </div>
+                                </div>
+                                <!-- ------------ -->
+                                <div class="row ">
+                                    <div class="d-flex row-border">
+
+                                        <div class="col-8 d-flex">
+                                            <i class="fa-solid fa-receipt fa-2xl table-bg-cl3"></i>
+                                            <div class="ms-2">
+                                                <span class="table-tesx-size ">Quiz if you become a
+                                                    motivator</span><span
+                                                    class="table-tesx-size-light-dot ms-1">.</span><span
+                                                    class="table-tesx-size ms-1">Task</span>
+                                                <br>
+                                                <span class="table-tesx-size">Biography</span><span
+                                                    class="table-tesx-size-light">. Mrs Diona Smith </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div class="">
+                                                <i class="fa-solid fa-ellipsis fa-lg dot-position text-secondary"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div class="button-position">
+                                                <button class="table-button2">+ Add or Create</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <hr class="row-border">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------ -->
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                            tabindex="0">
+                            <h3>To-do Content</h3>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
+                            tabindex="0">
+                            <h3>Member Details</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third Column -->
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12  col-12  col3">
+                    <div class="mt-3">
+                        <!-- --------------- -->
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search for anythings.."
+                                aria-label="Search">
+                            <img src="profile.png" class="img-size" alt="">
+                            <i class="fa-solid fa-chevron-down mt-2 ms-1 orange"></i>
+                        </form>
+                        <!-- --------------- -->
+                        <div class="">
+                            <div class=" light">
+
+                                <div class="calendar cal-bg-size">
+                                    <div class="calendar-header">
+                                        <span class="month-picker" id="month-picker">February</span>
+                                        <div class="year-picker ">
+
+                                            <span class="me-5 left" id="year">2021</span>
+                                            <span class="year-change mt-3 ms-5 " id="prev-year">
+                                                <pre class=""> < </pre>
+                                            </span>
+                                            <span class="year-change mt-3 " id="next-year">
+                                                <pre>></pre>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="calendar-body">
+                                        <div class="calendar-week-day">
+                                            <div>Sun</div>
+                                            <div>Mon</div>
+                                            <div>Tue</div>
+                                            <div>Wed</div>
+                                            <div>Thu</div>
+                                            <div>Fri</div>
+                                            <div>Sat</div>
+                                        </div>
+                                        <div class="calendar-days"></div>
+                                    </div>
+                                    <div class="month-list"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --------------- -->
+                        <div class="row mt-3">
+                            <div class="d-flex">
+                                <span class="heading-size">Upcoming </span><span class="heading-size red-col">.</span>
+                            </div>
+                        </div>
+                        <!-- --------------- -->
+                    </div>
+                    <!-- --------------- -->
+                    <div class="row">
+                        <div class="col-7">
+                            <ul class="timeline">
+                                <li>
+                                    <span><b>Psychology Exam</b></span>
+                                    <p class="time-tesx-size-light">Carry out writing exams in school</p>
+                                </li>
+                                <li>
+                                    <span><b>Mathematics Teory</b></span>
+                                    <p class="time-tesx-size-light">Carry out writing summary in school</p>
+
+                                </li>
+                                <li>
+                                    <span><b>Psychology Exam</b></span>
+                                    <p class="time-tesx-size-light">Carry out writing exams in school</p>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- ----------- -->
+                        <div class="col-1">
+                            <div class="time-logo-position">
+                                <i class="fa-solid fa-book-open fa-xl table-bg-cl3 text-center"></i>
+                            </div>
+                            <div class="time-logo-position2">
+                                <i class="fa-regular fa-clipboard fa-2xl table-bg-cl2 text-center"></i>
+                            </div>
+                            <div class="time-logo-position3">
+                                <i class="fa-regular fa-clipboard fa-2xl table-bg-cl3 text-center"></i>
+                            </div>
+                        </div>
+                        <!-- ----------- -->
+                        <div class="col-4">
+                            <div class="time-logo-position">
+                                <p class="float-right text-color time-tesx-size">19 Jan</p>
+                                <p class="float-right time-tesx-size"> 45 Mintutes</p>
+
+                            </div>
+                            <div class="time-date-position2">
+                                <p class="float-right text-color time-tesx-size">20-21 Jan</p>
+                                <p class="float-right time-tesx-size"> 3 Hours</p>
+                            </div>
+                            <div class="time-date-position3">
+                                <p class="float-right text-color time-tesx-size">22-23 Jan</p>
+                                <p class="float-right time-tesx-size"> 50 Mintutes</p>
+                            </div>
+                        </div>
+                        <!-- ----------- -->
+                    </div>
+                    <div class="mb-3 ms-3">
+                        <span class="view-all-css">View all upcoming ></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="work5.js"></script>
+    <script src="app.js"></script>
+    <!-- ---------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#sortable").sortable();
+            $("#sortable").disableSelection();
+        });
+
+        $('#collapseExample').collapse({
+            toggle: false
+        });
+    </script>
+
+    </body>
+
+</html>

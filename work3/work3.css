@@ -1,0 +1,34 @@
+
+body{
+    background-color: rgb(245, 240, 250);
+}
+
+img{
+    height: 30px;
+    width: 22px;
+}
+
+.posi-right{
+    position: relative;
+    right:00%;
+    
+}
+
+.logo-size{
+    height: 50px;
+    width: 40px;
+}
+
+.dot-size{
+    height: 70px;
+    width: 60px;
+}
+
+.foter-size{
+    height: 70px;
+}
+
+.posi-right-footer{
+    position: absolute;
+    right: 2%;
+}

@@ -1,0 +1,173 @@
+.daksh-logo-size{
+    max-width: 80%;
+    height: auto;
+    cursor: pointer;
+}
+.nav-text-size{
+    font-weight: 350;
+}
+
+.search-container-button {
+    background: #ffc955;
+    border: none;
+    cursor: pointer;
+    
+  }
+.search{
+    border: none  ;
+}
+
+  .nav-button{
+    float: right;
+    padding: 8px 12px;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffc955;
+    margin-top: 8%;
+
+  }
+
+  .float-right{
+    float: right;
+  }
+.card-img-size{
+  width: 95%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.text-col{
+  color: black;
+}
+
+.card-button{
+  width: 150%;
+  height: 30px;
+  border: none;
+  background-color: rgb(30, 100, 112);
+  color: #f1f1f1;
+  border-radius: 10px;
+}
+.footer-bg-color{
+  background-color: #e6e6e6;
+}
+.daksh-logo-size-footer{
+  width: 85%;
+  height: auto;
+  margin-top: 24%;
+  cursor: pointer;
+}
+.color{
+  color: #007f96;
+}
+.footer-button{
+  color: white;
+  background-color: #007f96;
+  border-radius: 10px;
+  float: right;
+  border: none;
+  height: 150%;
+}
+.footer-text-size{
+  font-size: auto;
+}
+.see-all{
+  color: #007f96;
+  float: right;
+  cursor: pointer;
+}
+.col1-img-size{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.col1-text{
+  position: relative;
+  top: 20%;
+  font-size: auto;
+}
+.co1-card{
+  border-radius: 0%;
+  border-right: none;
+}
+.floatt-right{
+  position: relative;
+  float: right;
+}
+.filter-button{
+  color: #007f96;
+}
+
+.product-list{
+  display: grid;
+  grid-template: "a a a a a";
+}
+@media only screen and (max-width: 1024px) {
+  .product-list {
+    display: grid;
+    grid-template: "a a a a ";
+  }
+}
+@media only screen and (max-width: 768px) {
+  .product-list {
+    display: grid;
+    grid-template: "a a a  ";
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .product-list {
+    display: grid;
+    grid-template: "a a a";
+  }
+  
+}
+
+.card-img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.card-css{
+  border-radius: 10px;
+  margin: 4px;
+  margin-bottom: 20px;
+}
+.div-size{
+  
+}
+.cardd-button{
+  border: none;
+  background-color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .col1-img-size{
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+  } 
+}
+
+@media only screen and (max-width: 768px) {
+  .daksh-logo-size-footer{
+    width: 200px;
+    height: auto;
+    margin-top: 24%;
+    cursor: pointer;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .footer-button{
+    color: white;
+    background-color: #007f96;
+    border-radius: 10px;
+    float: right;
+    border: none;
+    height: 50px;
+  }
+}
